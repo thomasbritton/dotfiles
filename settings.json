@@ -1,0 +1,60 @@
+{
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "editor.lineHeight": 20,
+    "editor.letterSpacing": 0.5,
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+    "editor.rulers": [120],
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.tree.horizontalScrolling": true,
+    "window.newWindowDimensions": "maximized",
+    "window.restoreFullscreen": true,
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#1A3548",
+        "sideBar.border": "#000000",
+        "sideBarTitle.foreground": "#ffffff",
+        "sideBarSectionHeader.foreground": "#ffffff",
+        "editorLineNumber.foreground": "#84909a",
+        "editorLineNumber.activeForeground": "#ffffff",
+        "editor.lineHighlightBackground": "#ffffff20",
+        "editor.hoverHighlightBackground": "#ffffff40",
+        "peekViewResult.lineForeground": "#ffffff",
+        "tab.activeForeground": "#ffffff",
+    },
+    "search.location": "panel",
+    "standard.autoFixOnSave": true,
+    "files.autoSave": "off",
+    "javascript.validate.enable": false,
+    "editor.tokenColorCustomizations": {
+        "[Cobalt2]": {
+            "comments": "#4cc0f4"
+        }
+    },
+    "editor.renderControlCharacters": true,
+    "workbench.activityBar.visible": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.next": true
+    },
+    "cSpell.language": "en,en-GB",
+    "editor.smoothScrolling": true,
+    "files.trimTrailingWhitespace": true,
+    "breadcrumbs.enabled": true,
+    "search.smartCase": true,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "github.hosts": [
+        {
+            "host": "https://github.com",
+            "username": "oauth",
+            "token": "system"
+        }
+    ],
+}
