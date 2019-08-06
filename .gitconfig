@@ -1,0 +1,24 @@
+[user]
+	name = Thomas Britton
+	email = tompbritton@gmail.com
+	username= thomasbritton
+[http]
+	cookiefile = /Users/thomas/.gitcookies
+[color]
+	ui = true
+[core]
+	editor = vim
+	excludesfile = /Users/thomas/.gitignore
+[alias]
+	ci = commit
+	br = branch
+	st = status
+	co = checkout
+	l = log --graph --abbrev-commit --date=relative
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[push]
+	default = current
